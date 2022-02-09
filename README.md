@@ -3,8 +3,8 @@
 **Introduction**
 
 Restaurant Management System built using python language, which is console based application using text files to store different food menus and users information.
-Which has different features like authentication,authorization,registartion.Restaurant manager(Admin) wants to perform the basic actions such as 
-adding a food menu, remove  and dit.Clients  can also login and perform actions like disaplay a food menu, search and order it, pay online.
+Which has different features like authentication,authorization,registartion. Restaurant manager(Admin) wants to perform the basic actions such as 
+adding a food menu, remove  and display it. Clients  can also login and perform actions like display a food menu,  order it and pay online.
 
 **Handling**
 
@@ -16,7 +16,7 @@ adding a food menu, remove  and dit.Clients  can also login and perform actions 
 
 4. pip install pybuilder
 
-5. Build the project - pyb 
+5. Build the project -- pyb 
 
 6. Run the project using any IDE as it's console based application.
 [Console OutPut](https://github.com/StudentDS3/Restaurant-Management-System)
