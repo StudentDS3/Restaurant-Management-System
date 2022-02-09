@@ -17,11 +17,12 @@ Which includes features such as authentication, authorization, and registartion.
 
 5. Build the project -- pyb 
 
-6. Run the project using any IDE as it's console based application.
+6. Run the project using any IDE as it's console based application
+
 [Console OutPut](https://github.com/StudentDS3/Restaurant-Management-System)
 
 #### Contents
-**1) UML Diagrams.**
+**1) UML Diagrams**
 
 The Unified Modeling Language (UML) is a general-purpose, developmental modeling language in the field of software engineering that aims to provide a standardized approach to represent a system's design.
 
@@ -60,7 +61,7 @@ There are four main DDD terms :
     
 [DDD](https://github.com/StudentDS3/Restaurant-Management-System)
 
-**3) SonarCloud Metrics.**
+**3) SonarCloud Metrics**
 
 SonarCloud is an online service that detects bugs, security vulnerabilities, and code smells in Pull Requests and across code repositories, allowing developers to improve their workflow by ensuring consistent code quality.
 
