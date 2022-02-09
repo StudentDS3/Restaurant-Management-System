@@ -43,7 +43,7 @@ The control flow is drawn from one operation to another. This flow can be sequen
  It represents the static view of an application. Class diagram is not only used for visualizing, describing, and documenting different aspects of a system but also for constructing executable code of the software application.
  Class diagram shows a collection of classes, interfaces, associations, collaborations, and constraints. It is also known as a structural diagram.
 
-**2) DDD Of Restaurant Management System(RMS)**
+**2) The domain driven design (DDD) Of Restaurant Management System(RMS)**
 
 The domain driven design approach is used for complex needs, connecting the implementation to an evolving model of the core business concepts. It puts the focus on the problem domain and basically helps identify the architecture and inform about the mechanics that the software needs to replicate.To create a Restaurant Management System,I have a good understanding of what restaurant booking is all about, and the domain of Food Ordering System .
 There 4 main DDD common terms
@@ -57,4 +57,4 @@ There 4 main DDD common terms
    4. Bounded Context: A description of a boundary (typically a subsystem, or the work of a specific team) within which a particular model is defined and applicable.
                        (example: Booking Managemnet System, User management, admin management, Transcation management, Employee Management, food menu Management)
     
-[DDD]((https://github.com/StudentDS3/Restaurant-Management-System)
+[DDD](https://github.com/StudentDS3/Restaurant-Management-System)
