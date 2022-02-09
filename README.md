@@ -59,3 +59,29 @@ There are four main DDD terms :
                        (example: Booking Managemnet System, User management, admin management, Transcation management, Employee Management, food menu Management)
     
 [DDD](https://github.com/StudentDS3/Restaurant-Management-System)
+
+**3) SonarCloud Metrics.**
+
+SonarCloud is an online service that detects bugs, security vulnerabilities, and code smells in Pull Requests and across code repositories, allowing developers to improve their workflow by ensuring consistent code quality.
+
+[Sonarcloud-URL](https://sonarcloud.io/)
+
+[Sonar-Config file](https://github.com/StudentDS3/Restaurant-Management-System)
+
+**1. SonarCloud Reliability Metrics:**
+
+Reliability metrics are used to express the software product's reliability in quantitative terms. It examines new bugs such as number of news bugs issues in source code.
+
+[Reliability Metrics](https://github.com/StudentDS3/Restaurant-Management-System)
+
+**2. SonarCloud Security Metrics:**
+
+Security metrics uncover vulnerabilities and new weaknesses in source code.
+
+[Security Metrics](https://github.com/StudentDS3/Restaurant-Management-System)
+
+**3. SonarCloud Duplication Metrics:**
+
+Duplication Metrics uses line duplication, files duplication and  blocks duplication  metrics to cover code duplication in the RMS project code.
+
+[Duplications Metrics](https://github.com/StudentDS3/Restaurant-Management-SystemG)
