@@ -85,4 +85,4 @@ Security metrics uncover vulnerabilities and new weaknesses in source code.
 
 Duplication Metrics uses line duplication, files duplication and  blocks duplication  metrics to cover code duplication in the RMS project code.
 
-[Duplications Metrics](https://github.com/StudentDS3/Restaurant-Management-SystemG)
+[Duplications Metrics](https://github.com/StudentDS3/Restaurant-Management-System)
