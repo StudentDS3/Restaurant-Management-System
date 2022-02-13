@@ -3,7 +3,7 @@
 **Introduction**
 
 Restaurant Management System is a console-based application that uses text files to store multiple food menus and user information. It is written in the Python programming language.
-Which includes features such as authentication, authorization, and registartion. The restaurant manager (Admin) want to execute basic functions such as adding, removing, and displaying food menus. Clients can also log in and execute tasks such as seeing a menu, ordering meals, and paying for it online.
+Which includes features such as authentication, authorization, and registartion. The restaurant manager (Admin) want to execute basic functions such as adding, removing, and displaying food menus. Clients can also log in and execute tasks such as seeing a menu, ordering meals, and cancel it.
 
 **Handling**
 

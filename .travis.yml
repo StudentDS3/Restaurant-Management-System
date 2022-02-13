@@ -1,0 +1,19 @@
+env:
+  global:
+  - secure: BnwQihiONc8HLQpTZONPbduzfCyMvqGc6IDQXfW1rQ83DTbo3Habg+wkC0gn6W0RAg35hEWWaASdaoUjEydS0+a72bwD0GrSSN2gXhRnt3sei7F+HTvecgRbryv4cKQy/OUy1trBvXHNIWszViy7GDy0nt/u+1R61HxBla4JROa/yWJas/FVDJZ1syQRjc8bLakgV+ugQhJS1AGBx6k1sAbVE3T2krvRF8Y4KoX/Ya6cq5g+Bv3+ULPHAMOlokYOHJmvE2oHXAktV8wZ0JrlYW9OsOIMFpg4OcDlMQW61p1pJ6xAhSoImfDxBrn8c9k/I6UYK+KkUWNSDxB9FXmYRS7eYQ2ni01iHKeq/lfv5upoQn8QS+dFBL4j1BrMoPdIxO9GIMfHGSLmWgrIWtu/XK459loE/zI5oBk84oW0AZ0LnPLIyH/Qma7ojMzYeESxzHykaIJop6t1LaCLiidHG2sPSV32xWda3ytOVlqLe6EwyjWLRrJ2VqxuXZvpYmHkO8SgskftO7c23poBceL+GUlH4VZyPK4T2/J10yHegrixS4+yRX0rUuNuYqeosYVww44No7iXMkU27olLHAoc/qcC1Kdsqjv+KZmRC7LBYyt0/EBRad38mm83qbj1mf3uHsX7ZR8t0pMuoTT8o+UH12Pb+xHdcWqh0uIRZoO+G74=
+addons:
+  sonarcloud:
+    organization: studentds3
+    token:
+      secure: "**************************"
+script:
+- sonar-scanner
+addons:
+  sonarcloud:
+    organization: "studentds3"
+    token:
+      secure: "**************************" # encrypted value of your token
+
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - sonar-scanner
