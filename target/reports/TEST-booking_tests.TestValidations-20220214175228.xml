@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="booking_tests.TestValidations-20220214175228" tests="7" file="booking_tests.py" time="0.035" timestamp="2022-02-14T17:52:29" failures="0" errors="0" skipped="0">
+	<testcase classname="booking_tests.TestValidations" name="test_email_admin" time="0.000" timestamp="2022-02-14T17:52:28"/>
+	<testcase classname="booking_tests.TestValidations" name="test_password_admin" time="0.016" timestamp="2022-02-14T17:52:28"/>
+	<testcase classname="booking_tests.TestValidations" name="test_user_admin" time="0.000" timestamp="2022-02-14T17:52:28"/>
+	<testcase classname="booking_tests.TestValidations" name="test_validate_email" time="0.014" timestamp="2022-02-14T17:52:29"/>
+	<testcase classname="booking_tests.TestValidations" name="test_validate_password" time="0.003" timestamp="2022-02-14T17:52:29"/>
+	<testcase classname="booking_tests.TestValidations" name="test_validate_type" time="0.002" timestamp="2022-02-14T17:52:29"/>
+	<testcase classname="booking_tests.TestValidations" name="test_validate_user" time="0.001" timestamp="2022-02-14T17:52:29"/>
+</testsuite>

@@ -2,9 +2,9 @@
   "module_names": [
     {
       "branches": 38,
-      "branches_missing": 20,
-      "branches_partial": 10,
-      "coverage": 59.25925925925926,
+      "branches_missing": 25,
+      "branches_partial": 9,
+      "coverage": 51.851851851851855,
       "lines": [
         1,
         2,
@@ -126,6 +126,14 @@
         32,
         34,
         35,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
         57,
         58,
         59,
@@ -163,7 +171,7 @@
       ],
       "module": "booking",
       "sum_lines": 108,
-      "sum_lines_not_covered": 44
+      "sum_lines_not_covered": 52
     },
     {
       "branches": 34,
@@ -512,7 +520,7 @@
       "sum_lines_not_covered": 0
     }
   ],
-  "overall_branch_coverage": 35.294117647058826,
-  "overall_branch_partial_coverage": 90.19607843137256,
-  "overall_coverage": 43.727598566308245
+  "overall_branch_coverage": 30.392156862745097,
+  "overall_branch_partial_coverage": 91.17647058823529,
+  "overall_coverage": 40.86021505376344
 }

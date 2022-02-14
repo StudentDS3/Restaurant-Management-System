@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="booking_tests.TestLogin-20220214175229" tests="4" file="booking_tests.py" time="0.000" timestamp="2022-02-14T17:52:29" failures="0" errors="0" skipped="0">
+	<testcase classname="booking_tests.TestLogin" name="test_check_admin_login" time="0.000" timestamp="2022-02-14T17:52:29"/>
+	<testcase classname="booking_tests.TestLogin" name="test_check_staff_login" time="0.000" timestamp="2022-02-14T17:52:29"/>
+	<testcase classname="booking_tests.TestLogin" name="test_check_student_login" time="0.000" timestamp="2022-02-14T17:52:29"/>
+	<testcase classname="booking_tests.TestLogin" name="test_user_condition" time="0.000" timestamp="2022-02-14T17:52:29"/>
+</testsuite>
