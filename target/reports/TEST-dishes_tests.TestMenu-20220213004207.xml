@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dishes_tests.TestMenu-20220213004207" tests="1" file="dishes_tests.py" time="0.006" timestamp="2022-02-13T00:42:08" failures="0" errors="0" skipped="0">
+	<testcase classname="dishes_tests.TestMenu" name="test_display_menu" time="0.006" timestamp="2022-02-13T00:42:08"/>
+</testsuite>
