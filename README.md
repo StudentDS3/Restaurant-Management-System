@@ -88,3 +88,133 @@ Security metrics uncover vulnerabilities and new weaknesses in source code.
 Duplication Metrics uses line duplication, files duplication and  blocks duplication  metrics to cover code duplication in the RMS project code.
 
 [Duplications Metrics]()
+
+**4) Clean Code Development(5 points  + 10 points of cheat sheet)**
+
+Clean code addresses the clear, understandable, traceable, logical and disciplined implementation of code. The aim is to produce software efficiently and effectively while designing the code so that it is easy to use ,readable,
+changeable,expandable and maintainable.
+
+[CheatSheet](https://github.com/StudentDS3/Restaurant-Management-System/blob/main/docs/output/CheatSheet.pdf)
+
+**1.Use of meaningful and pronounceable variable names**
+
+[Meaningful Name](https://github.com/StudentDS3/Restaurant-Management-System/blob/5012861f82c5ad49a69b8f9879d40e02afb2e48b/src/main/python/booking_dishes.py#L13)
+
+**2. Custom Exception Handling for better eadable and code maintainance**
+
+[Exception Handling](https://github.com/StudentDS3/Restaurant-Management-System/blob/5012861f82c5ad49a69b8f9879d40e02afb2e48b/src/main/python/booking.py#L101-L107)
+
+
+**3. Use of constant File or Constant variables**
+
+[Constant File](https://github.com/StudentDS3/Restaurant-Management-System/blob/5012861f82c5ad49a69b8f9879d40e02afb2e48b/src/main/python/constants.py#L6-L7)
+
+[Constant Variables Usage](https://github.com/StudentDS3/Restaurant-Management-System/blob/5012861f82c5ad49a69b8f9879d40e02afb2e48b/src/main/python/booking_dishes.py#L25)
+
+**4. one def serves one purpose**
+
+[One pupose](https://github.com/StudentDS3/Restaurant-Management-System/blob/5012861f82c5ad49a69b8f9879d40e02afb2e48b/src/main/python/booking_dishes.py#L36-L40)
+
+**5. use of decorators**
+
+[Decorators](https://github.com/StudentDS3/Restaurant-Management-System/blob/5012861f82c5ad49a69b8f9879d40e02afb2e48b/src/main/python/booking_dishes.py#L70-L95)
+	
+
+**5) Build Management using Pybuilder.**
+
+PyBuilder was used to create the RMS project, and the command **pyb** was used.
+PyBuilder is a Python-based software build automation tool that focuses on the Python environment. It is built on the dependency-based programming paradigm, but it also has a sophisticated plugin mechanism that allows the creation of build life-cycles similar to those seen in other well-known build tools such as Apache Maven and Gradle.
+The files are listed below, and the image contains the information.
+
+[Build File](https://github.com/StudentDS3/Restaurant-Management-System)
+
+[SetUp File](https://github.com/StudentDS3/Restaurant-Management-System)
+
+[PyBuilder](https://github.com/StudentDS3/Restaurant-Management-System)
+
+[Generated Docs Index](https://github.com/StudentDS3/Restaurant-Management-System)
+
+[Generated Docs Module](https://github.com/StudentDS3/Restaurant-Management-System)
+
+**6) Unit-Tests using uinitest.**
+
+The build is complete, and each individual unittest is running with percentage coverage.
+
+[Unittests](https://github.com/StudentDS3/Restaurant-Management-System)
+
+**7) Continuous Delivery Travis-CI**
+
+
+[Travis-CI Pipeline-Link](https://github.com/StudentDS3/Restaurant-Management-System)
+
+[Travis-CI-Pipeline](https://github.com/StudentDS3/Restaurant-Management-System)
+
+[Travis-CI-Pipeline-Result](https://github.com/StudentDS3/Restaurant-Management-System)
+
+[Travis-CI-Pipeline-Logs](https://github.com/StudentDS3/Restaurant-Management-System)
+
+**8) Pycharm IDE**
+
+I'm familiar with different integrated development environments (IDE) for Java I used Eclipse and NetBeans. As the actual project is written in Python, I prefer using Visual Studio Code for Python development.
+   * Ctrl+Shift+B	   Run Build Task
+   * shift+ctrl+\    Jump to matching bracket
+   * shift+ctrl+K    Delete line
+
+**9) Domain specific language (DSL) snippet**
+
+ A Domain Specific Language (DSL) is a programming language with a higher degree of abstraction that is targeted to a particular set of issues. The concepts and rules from the field or domain are used in a DSL.SQL, HTML, XML, UML, and other DSLs are common examples. As a DSL, the RMS project employed "regular expression."
+ 
+ **Regular expression:**
+ 
+A regular expression is a sequence of characters that can be used to match or find other strings or sets of strings by utilizing a particular syntax that is stored in a pattern. In this project's code, a regular expression was utilized as a DSL. From user inputs, a regular expression was utilized to match valid characters, password strength, and email pattern.
+ 
+ [Regular Expression](https://github.com/StudentDS3/Restaurant-Management-System)
+
+**10) Functional Programming used.**
+
+The functional programming techniques I utilized in my RMS project are listed below.
+
+**1. Final data structures**
+
+Some variables have been made immutable in project code.
+
+[Final Data Structure](https://github.com/StudentDS3/Restaurant-Management-System)
+
+**2.Side effect free functions**
+
+Operations that modify a variable's or expression's global state are called side effect. Side effect are addressed with all assignment and input/output operators. In this project code, I utilized function programming, which has no side effect and is used frequently in functional programming. An example of a function with no side effect follows.
+
+[Side Effect Free Function](https://github.com/StudentDS3/Restaurant-Management-System)
+
+
+**3. Higher-order functions**
+
+If a function incorporates other functions as an input or returns a function as an output, it is referred to as a Higher Order Function. Higher Order Functions are functions that act on another function. It's worth noting that this higher-order function can be used with functions and procedures that accept functions as parameters or return functions as results.
+In Python, the most common application of higher-order functions is decorators. It allows programmers to change how a function or class behaves. Decorators allow us to encapsulate another function in order to enhance its functionality without having to alter it permanently. Functions are sent as arguments to another function in Decorators, and then called from within the wrapper.
+I have used decorators , fine_calc_decorator is callable function and calculate_fine is actual function inside the wrapper function.
+
+[High-Order-Function](https://github.com/StudentDS3/Restaurant-Management-System)
+
+**4. Functions as parameters**
+
+In the example below, a function is assigned to a variable user_username_pass_check. This assignment doesn’t call the function. It takes the function object referenced by user_condition and creates a second name pointing to it, user_username_pass_check.
+
+[Function Stored As Variable](https://github.com/StudentDS3/Restaurant-Management-System)
+
+[Actual Function](https://github.com/StudentDS3/Restaurant-Management-System)
+
+Below example shows functions that can accept other functions as arguments.validate_type is a function which accepts valid_usertype_check function as param.
+
+[Function being called](https://github.com/StudentDS3/Restaurant-Management-System)
+
+[Function Used](https://github.com/StudentDS3/Restaurant-Management-System)
+
+[Actual Function](https://github.com/StudentDS3/Restaurant-Management-System)
+
+
+**5. Anonymous functions**
+
+Python Lambda Functions are anonymous functions, which implies they don't have a name. The def keyword is used to define a typical function in Python, as we already know. The lambda keyword is also used in Python to define an anonymous function.
+
+[Lambda](https://github.com/StudentDS3/Restaurant-Management-System)
+
