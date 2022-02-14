@@ -195,13 +195,13 @@ I have used decorators , fine_calc_decorator is callable function and calculate_
 
 **4. Functions as parameters**
 
-In the example below, a function is assigned to a variable user_username_pass_check. This assignment doesn’t call the function. It takes the function object referenced by user_condition and creates a second name pointing to it, user_username_pass_check.
+In the example below, a function is assigned to a variable . This assignment doesn’t call the function. It takes the function object referenced by it and creates a second name pointing to it.
 
 [Function Stored As Variable](https://github.com/StudentDS3/Restaurant-Management-System/blob/fb9271c0965f20c98c5fd0492ca31beaea40438c/src/main/python/booking.py#L25)
 
 [Actual Function](https://github.com/StudentDS3/Restaurant-Management-System/blob/fb9271c0965f20c98c5fd0492ca31beaea40438c/src/main/python/booking.py#L37)
 
-Below example shows functions that can accept other functions as arguments.validate_type is a function which accepts valid_usertype_check function as param.
+Below example shows functions that can accept other functions as arguments.It is a function which accepts function as param.
 
 [Function being called](https://github.com/StudentDS3/Restaurant-Management-System/blob/fb9271c0965f20c98c5fd0492ca31beaea40438c/src/main/python/booking.py#L131-L132)
 
