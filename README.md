@@ -130,14 +130,14 @@ The files are listed below, and the image contains the information.
 
 [SetUp File](https://github.com/StudentDS3/Restaurant-Management-System/blob/main/setup.py)
 
-[PyBuilder]()
+[PyBuilder](https://github.com/StudentDS3/Restaurant-Management-System/blob/main/images/pyb--pybuild.PNG)
 
 
 **6) Unit-Tests using uinitest.**
 
 The build is complete, and each individual unittest is running with percentage coverage.
 
-[Unittests]()
+[Unittests](https://github.com/StudentDS3/Restaurant-Management-System/blob/main/images/pyb--pybuild.PNG)
 
 **7) Continuous Delivery GitHub Actions**
 
@@ -147,9 +147,6 @@ CI using GitHub Actions offers workflows that can build the code in the reposito
 
 [GitHub Actions-Setup file](https://github.com/StudentDS3/Restaurant-Management-System/blob/main/.github/workflows/blank.yml)
 
-[GitHub Actions-Pipeline-Result]()
-
-[GitHub Actions-Pipeline-Logs]()
 
 **8) Pycharm IDE**
 
