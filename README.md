@@ -2,7 +2,7 @@
 # Restaurant-Management-System
 **Introduction**
 
-Restaurant Management System is a console-based application that uses text files to store multiple food menus and user information. It is written in the Python programming language.
+Restaurant Management System (at University) is a console-based application that uses text files to store multiple food menus and user information. It is written in the Python programming language.
 Which includes features such as authentication, authorization, and registartion. The restaurant manager (Admin) want to execute basic functions such as adding, removing, and displaying food menus. Clients can also log in and execute tasks such as seeing a menu, ordering meals, and cancel it.
 
 **Handling**
@@ -75,19 +75,19 @@ SonarCloud is an online service that detects bugs, security vulnerabilities, and
 
 Reliability metrics are used to express the software product's reliability in quantitative terms. It examines new bugs such as number of news bugs issues in source code.
 
-[Reliability Metrics]()
+[Reliability Metrics](https://sonarcloud.io/summary/overall?id=StudentDS3_Restaurant-Management-System)
 
 **2. SonarCloud Security Metrics:**
 
 Security metrics uncover vulnerabilities and new weaknesses in source code.
 
-[Security Metrics]()
+[Security Metrics](https://sonarcloud.io/summary/overall?id=StudentDS3_Restaurant-Management-System)
 
 **3. SonarCloud Duplication Metrics:**
 
 Duplication Metrics uses line duplication, files duplication and  blocks duplication  metrics to cover code duplication in the RMS project code.
 
-[Duplications Metrics]()
+[Duplications Metrics](https://sonarcloud.io/summary/overall?id=StudentDS3_Restaurant-Management-System)
 
 **4) Clean Code Development(5 points  + 10 points of cheat sheet)**
 
