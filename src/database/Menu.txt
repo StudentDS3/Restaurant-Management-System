@@ -1,0 +1,6 @@
+Dish 1,Ingredients 1,5 %,12 euro
+Dish 2,Ingredients 2,5 %,14 euro
+Dish 3,Ingredients 3,5 %,10 euro
+Dish 4,Ingredients 4,10%,15 euro
+Dish 5,Ingredients 5,10%,15 euro
+Dish 6,Ingredients 6,5 %,12 euro
